@@ -1,0 +1,186 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-image:linear-gradient(top, #FF70C0 0%, #3FA1FF 50%);
+    background-image:-webkit-linear-gradient(top, #FF70C0 0%, #3FA1FF 50%);
+    background-image:-ms-linear-gradient(top, #FF70C0 0%, #3FA1FF 50%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #FF70C0),
+        color-stop(1, #3FA1FF)
+    );
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #3FA1FF;
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+
+a {
+	text-decoration: none;
+	
+}
+/* Portrait layout (default) */
+.frontpagecontainer {
+	display: block;
+	flex-direction: column;
+	margin-top: 70px; 
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+.taart1 {
+	background-color: white;
+	bottom: 0px; 
+	height: 40px;
+	width: 40%;
+	text-alignt: center;
+	margin-left: 30%; 
+	border-radius: 20px;
+}
+
+.taart2 { 
+	bottom: 0px; 
+	background-color: white;
+	height: 40px;
+	margin-top: 15px; 
+	width: 55%;
+	text-alignt: center;
+	margin-left: 22.5%; 
+	border-radius: 20px; 
+	
+}
+
+.taart3 {
+	bottom: 0px; 
+	background-color: white;
+	height: 40px;
+	margin-top: 15px; 
+	width: 70%;
+	text-alignt: bottom;
+	margin-left: 15%; 
+	border-radius: 20px; 
+	
+}
+.logobox { 
+	overflow: auto;
+	background-color: white;
+	width: 80%;
+	margin-left: 10%; 
+	border-radius: 20px;  
+	margin-bottom: 0px; 
+	margin-top: 15px; 
+	
+	
+}
+
+.festilogo1 {
+	margin-top: 30px;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto; 
+	object-fit: contain; 
+}
+.taartkaars {
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+	
+}
+
+
+.button1 {
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: block;
+	width: 70%;
+	padding: 10px; 
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #59AEFF;
+	color: white;
+	font-size: 15px; 
+	font-family: Nunito; 
+	 
+}
+.app {
+    background-color: white;
+    position:fixed;             /* position in the center of the screen */
+    height:90%;                   /* text area height */
+    width:90%;                   /* text area width */
+    text-align:center;
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
