@@ -22,12 +22,17 @@
 
 body {
 	
-	background-color: #3FA1FF;
+	background-color: white;
     height:100%;
 	min-height: 100%; 
     margin:0px;
     padding:0px;
+	overflow: scroll;
+	overflow-y: scroll;
 }
+
+
+
 
 a {
 	text-decoration: none;
@@ -36,9 +41,14 @@ a {
 /* Portrait layout (default) */
 
 .standardnavbar{
-	height: 70px;
+	height: 73px;
 	width: 100%;
 	background-color: white; 
+	border-bottom-width: 1px; 
+	border-bottom-style: solid;
+	border-bottom-color: #E3E3E3;
+	position: fixed;
+	top: 0px; 
 }
 
 .navbarlogo {
@@ -72,20 +82,87 @@ a {
 	font-family: 'Nunito', sans-serif; 
 	 
 }
-footer{
-	height: 100px;
-	width: 100%;
-	background-color: white;
-    position: absolute;
-	bottom: 0; 
-	padding-top: 30px; 
-}
 
-.footer{
-	
+.birthdaycontainer{
 	width: 80%;
 	margin-left: 10%; 
+	margin-top: 100px; 
 }
+
+h2{
+	font-size: 23px;  
+	font-weight: 900;
+	color:#787878 ;
+	margin-top: 25px;  
+	font-family: 'Nunito', sans-serif; 
+}
+
+h3{
+	font-size: 20px; 
+	font-family: 'Nunito', sans-serif; 
+}
+
+.birthdaybox{
+	background-color: #59AEFF;
+	height: 40px; 
+	border-radius: 20px; 
+	padding-top: 11px;
+	padding-left: 20px; 
+	margin-bottom: 15px; 
+}
+
+#footer{
+	height: 90px;
+	width: 100%; 
+	background-color: white;
+	border-top: 1px; 
+	border-top-style: solid;
+	border-top-color: #E3E3E3;
+}
+
+footer{
+	position: fixed; 
+	bottom: 0;  
+	width: 100%; 
+}
+
+#sendbutton{
+	height: 90px; 
+	padding-top: 30px; 
+	text-align: center; 
+}
+
+#settingsbutton{
+	height: 90px; 
+	padding-top: 30px; 
+	text-align: center; 
+}
+
+#addbutton{
+	height: 90px; 
+	padding-top: 30px; 
+	text-align: center; 
+}
+
+#sendbutton:active{
+	background-color: #E3E3E3;
+	
+}
+
+#settingsbutton:active{
+	background-color: #E3E3E3;
+}
+
+#addbutton:active{
+	background-color: #E3E3E3;
+}
+
+p{
+	font-family: 'Nunito', sans-serif; 
+	font-size: 12px; 
+	color: white; 
+}
+
 .app {
     background-color: white;
     position:fixed;             /* position in the center of the screen */

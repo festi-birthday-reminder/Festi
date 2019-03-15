@@ -144,8 +144,15 @@ h3{
 	color: white;
 	font-size: 15px; 
 	font-family: 'Nunito', sans-serif;
-	 
+	
 }
+
+.button1:active { 
+
+background-color: #FFA8D8;
+	
+}
+
 .app {
     background-color: white;
     position:fixed;             /* position in the center of the screen */
