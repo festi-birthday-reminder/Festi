@@ -102,6 +102,11 @@ h3{
 	font-family: 'Nunito', sans-serif; 
 }
 
+h4{
+	font-size: 14px; 
+	font-family: 'Nunito', sans-serif; 
+}
+
 .birthdaybox{
 	background-color: #59AEFF;
 	height: 40px; 
@@ -109,6 +114,11 @@ h3{
 	padding-top: 11px;
 	padding-left: 20px; 
 	margin-bottom: 15px; 
+}
+
+.lastbox{
+	
+	margin-bottom: 150px; 
 }
 
 #footer{
