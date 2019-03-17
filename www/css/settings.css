@@ -31,7 +31,14 @@ body {
 	overflow-y: scroll;
 }
 
-
+.infotext{
+	font-family: 'Nunito', sans-serif; 
+	font-size: 11px; 
+	color: black; 
+	font-style: italic; 
+	width: 85%;
+	margin-left: 5%; 
+}
 
 
 a {
@@ -49,6 +56,10 @@ a {
 	border-bottom-color: #E3E3E3;
 	position: fixed;
 	top: 0px; 
+}
+
+p{
+	margin: 0px; 
 }
 
 .navbarlogo {
@@ -106,7 +117,11 @@ h2{
 h3{
 	font-size: 16px; 
 	font-family: 'Nunito', sans-serif; 
-	margin-bottom: 20px; 
+
+}
+
+.extramargintop{
+	margin-top: 15px; 
 }
 
 .OKbutton{
