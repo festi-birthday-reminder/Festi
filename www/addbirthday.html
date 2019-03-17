@@ -25,12 +25,12 @@
 	<form class="birthdaycontainer">
 		<h3>Name: *</h3>
 		<input type ="text" name="name" class="birthdaybox" required>
-		<h3>Date & Time: *</h3>
-		<input type="datetime-local" name="bday" class="datebox" required> <br><br>
-		<input type="checkbox" name="festibestie"> Festibestie
-		<p>By checking the box, this birthday reminder will be shown on top of your birthday list.</p>
+		<div class="container"><input type="checkbox" name="festibestie"> Festibestie
+		<p>By checking the box, this birthday reminder will be shown on top of your birthday list.</p></div>
+		<h3 class="extramargin">Date & Time: *</h3>
+		<input type="datetime-local" name="bday" class="datebox" required>
 		
-		<h3 class="extramargin">Extra reminder before birthday:</h3>
+		<h3>Extra reminder before birthday:</h3>
 			<input type="checkbox" name="reminder" value="1day"> 1 Day
   			<input type="checkbox" name="reminder" value="3days"> 3 Days
   			<input type="checkbox" name="reminder" value="1week"> 1 Week
