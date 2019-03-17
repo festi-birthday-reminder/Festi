@@ -44,6 +44,13 @@ body {
 	border-width: 0; 
 }
 
+.OKbutton:active{
+	background-color: #9FD0FE;
+}
+
+.cancelbutton:active{
+	opacity: 0.6;
+}
 
 a {
 	text-decoration: none;
@@ -108,12 +115,6 @@ h2{
 	font-family: 'Nunito', sans-serif; 
 }
 
-.submitbutton{
-	background-color: #FF96D8;
-	border-color: #FF96D8;
-	margin-left: 30px; 
-	
-}
 
 h3{
 	font-size: 16px; 
