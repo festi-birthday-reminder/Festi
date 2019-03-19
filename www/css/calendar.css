@@ -22,7 +22,12 @@
 
 body {
 	
-	background-color: white;
+	background-image: url(../img/air-baby-blue-baby-pink-1851361-blurry.png);
+	background-color: white; 
+	background-size: cover;
+	background-attachment: fixed; 
+	background-position: center;
+	background-repeat: no-repeat;
     height:100%;
 	min-height: 100%; 
     margin:0px;
@@ -84,9 +89,10 @@ a {
 }
 
 .birthdaycontainer{
-	width: 80%;
-	margin-left: 10%; 
+
 	margin-top: 100px; 
+	margin-right: 0px;
+	width: 100%; 
 }
 
 h2{
@@ -99,26 +105,54 @@ h2{
 
 h3{
 	font-size: 20px; 
-	font-family: 'Nunito', sans-serif; 
+	font-family: 'Nunito', sans-serif;
+	margin-left: 0px; 
+	padding-left: 0px; 
 }
 
 h4{
-	font-size: 14px; 
+	font-size: 17px; 
 	font-family: 'Nunito', sans-serif; 
+	margin-bottom: 15px;
+	margin-left: 5%;
+	
+}
+
+.legebirthdaybox{
+	background-color: #59AEFF;
+	border-radius: 20px; 
+	padding-top: 11px;
+	padding-left: 20px; 
+	padding-bottom: 11px; 
+	margin-bottom: 10px; 
+	width: 90%;
+	margin-left: 5%;
+	border-width: 1px; 
+	border-color: white; 
+	border-style: solid;
 }
 
 .birthdaybox{
 	background-color: #59AEFF;
-	height: 40px; 
 	border-radius: 20px; 
 	padding-top: 11px;
 	padding-left: 20px; 
-	margin-bottom: 15px; 
+	padding-bottom: 11px; 
+	margin-bottom: 10px; 
+	width: 90%;
+	margin-left: 5%;
+	border-width: 1px; 
+	border-color: white; 
+	border-style: solid;
 }
+
+
 
 .lastbox{
 	
-	margin-bottom: 150px; 
+	width: 100%;
+	height: 10px; 
+	margin-bottom: 130px; 
 }
 
 #footer{
@@ -167,10 +201,38 @@ footer{
 	background-color: #E3E3E3;
 }
 
+.cakeicon{
+	width: 30px;
+	height: auto; 
+	margin-left: 8px;  
+	padding: 0px; 
+}
+
+.editicon{
+	width: 20px;
+	height: auto;
+	text-align: center; 
+	margin-top: 7px; 
+}
+
+.deleteicon{
+	width: 20px;
+	height: auto;
+	text-align: center; 
+	margin-left: 10px;
+	margin-top: 7px; 
+}
+
+.nomargin{
+	margin: 0px;
+	padding: 0px; 
+}
+
 p{
 	font-family: 'Nunito', sans-serif; 
 	font-size: 12px; 
 	color: white; 
+	margin: 0px; 
 }
 
 .app {

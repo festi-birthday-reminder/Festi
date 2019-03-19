@@ -1,0 +1,286 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+	
+	background-color: white;
+    height:100%;
+	min-height: 100%; 
+    margin:0px;
+    padding:0px;
+	overflow: scroll;
+	overflow-y: scroll;
+}
+
+.infotext{
+	font-family: 'Nunito', sans-serif; 
+	font-size: 11px; 
+	color: black; 
+	font-style: italic; 
+	width: 85%;
+	margin-left: 5%; 
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+	
+}
+
+a:active{
+	text-decoration: none;
+	color: white;
+}
+/* Portrait layout (default) */
+
+.standardnavbar{
+	height: 73px;
+	width: 100%;
+	background-color: white; 
+	border-bottom-width: 1px; 
+	border-bottom-style: solid;
+	border-bottom-color: #E3E3E3;
+	position: fixed;
+	top: 0px; 
+}
+
+p{
+	text-decoration: none;
+	margin: 0px; 
+}
+
+.navbarlogo {
+	height: 30px;
+	width: auto;
+	margin-top: 20px;
+	margin-left: 20px; 
+}
+
+.festilogo1 {
+	margin-top: 30px;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto; 
+	object-fit: contain; 
+}
+
+.button1 {
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: block;
+	width: 70%;
+	padding: 10px; 
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #59AEFF;
+	color: white;
+	font-size: 15px; 
+	font-family: 'Nunito', sans-serif; 
+	 
+}
+
+.birthdaycontainer{
+	margin-left: 5px; 
+	margin-top: 100px; 
+}
+
+h2{
+	font-size: 23px;  
+	font-weight: 900;
+	color:#787878 ;
+	margin-top: 25px;  
+	font-family: 'Nunito', sans-serif; 
+}
+
+.submitbutton{
+	background-color: #FF96D8;
+	border-color: #FF96D8;
+	margin-left: 30px; 
+	
+}
+
+h3{
+	font-size: 16px; 
+	font-family: 'Nunito', sans-serif; 
+
+}
+
+.extramargintop{
+	margin-top: 15px; 
+}
+
+.OKbutton{
+	margin-top: 200px; 
+	border-radius: 20px;
+	width: 30%;
+	margin-left: 35%; 
+	display: block;
+	padding: 10px; 
+	text-align: center;
+	background-color: #59AEFF;
+	color: white;
+	font-size: 15px; 
+	font-family: 'Nunito', sans-serif; 
+}
+
+.OKbutton:active{
+	background-color: #9FD0FE;
+}
+
+form{
+	font-family: 'Nunito', sans-serif; 
+}
+
+.birthdaybox{
+	background-color: #59AEFF;
+	border-color: white;
+	height: 40px; 
+	width: 100%; 
+	border-radius: 20px; 
+	color: white;
+	font-size: 12px; 
+	padding-left: 20px; 
+	margin-bottom: 15px; 
+}
+
+#footer{
+	height: 90px;
+	width: 100%; 
+	background-color: white;
+	border-top: 1px; 
+	border-top-style: solid;
+	border-top-color: #E3E3E3;
+}
+
+footer{
+	position: absolute; 
+	bottom: 0;  
+	width: 100%;
+	height: 10px;
+}
+
+#sendbutton{
+	height: 90px; 
+	padding-top: 30px; 
+	text-align: center; 
+}
+
+#settingsbutton{
+	height: 90px; 
+	padding-top: 30px; 
+	text-align: center; 
+}
+
+#addbutton{
+	height: 90px; 
+	padding-top: 30px; 
+	text-align: center; 
+}
+
+#sendbutton:active{
+	background-color: #E3E3E3;
+	
+}
+
+#settingsbutton:active{
+	background-color: #E3E3E3;
+}
+
+#addbutton:active{
+	background-color: #E3E3E3;
+}
+
+
+
+.app {
+    background-color: white;
+    position:fixed;             /* position in the center of the screen */
+    height:90%;                   /* text area height */
+    width:90%;                   /* text area width */
+    text-align:center;
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+	
+}
+
+.onoffswitch {
+    position: relative; width: 40px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 28px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 20px; padding: 0; line-height: 20px;
+    font-size: 10px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "";
+    padding-left: 0px;
+    background-color: #3FA1FF; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "";
+    padding-right: 0px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 20px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 16px;
+    border: 2px solid #999999; border-radius: 28px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+.schuifknop{
+	margin-top: 7px; 
+}
