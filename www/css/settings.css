@@ -61,7 +61,11 @@ a:active{
 	border-bottom-style: solid;
 	border-bottom-color: #E3E3E3;
 	position: fixed;
-	top: 0px; 
+	top: 0p6x; 
+}
+
+#notificiontime{
+	width: 70px; 
 }
 
 p{
