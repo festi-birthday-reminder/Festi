@@ -21,15 +21,15 @@
 }
 
 body {
-	
+
 	background-image: url(../img/air-baby-blue-baby-pink-1851361-blurry.png);
-	background-color: white; 
+	background-color: white;
 	background-size: cover;
-	background-attachment: fixed; 
+	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
     height:100%;
-	min-height: 100%; 
+	min-height: 100%;
     margin:0px;
     padding:0px;
 	overflow: scroll;
@@ -41,34 +41,34 @@ body {
 
 a {
 	text-decoration: none;
-	
+
 }
 /* Portrait layout (default) */
 
 .standardnavbar{
 	height: 73px;
 	width: 100%;
-	background-color: white; 
-	border-bottom-width: 1px; 
+	background-color: white;
+	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #E3E3E3;
 	position: fixed;
-	top: 0px; 
+	top: 0px;
 }
 
 .navbarlogo {
 	height: 30px;
 	width: auto;
 	margin-top: 20px;
-	margin-left: 20px; 
+	margin-left: 20px;
 }
 
 .festilogo1 {
 	margin-top: 30px;
 	display: block;
-	margin-left: auto; 
-	margin-right: auto; 
-	object-fit: contain; 
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: contain;
 }
 
 .button1 {
@@ -77,120 +77,121 @@ a {
 	margin-bottom: 30px;
 	display: block;
 	width: 70%;
-	padding: 10px; 
+	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	background-color: #59AEFF;
 	color: white;
-	font-size: 15px; 
-	font-family: 'Nunito', sans-serif; 
-	 
+	font-size: 15px;
+	font-family: 'Nunito', sans-serif;
+
 }
 
 .birthdaycontainer{
 
-	margin-top: 100px; 
+	margin-top: 100px;
 	margin-right: 0px;
-	width: 100%; 
+	width: 100%;
+  margin-bottom: 100px; 
 }
 
 h2{
-	font-size: 23px;  
+	font-size: 23px;
 	font-weight: 900;
 	color:#787878 ;
-	margin-top: 25px;  
-	font-family: 'Nunito', sans-serif; 
+	margin-top: 25px;
+	font-family: 'Nunito', sans-serif;
 }
 
 h3{
-	font-size: 20px; 
+	font-size: 20px;
 	font-family: 'Nunito', sans-serif;
-	margin-left: 0px; 
-	padding-left: 0px; 
+	margin-left: 0px;
+	padding-left: 0px;
 }
 
 h4{
-	font-size: 17px; 
-	font-family: 'Nunito', sans-serif; 
+	font-size: 17px;
+	font-family: 'Nunito', sans-serif;
 	margin-bottom: 15px;
 	margin-left: 5%;
-	
+
 }
 
 .legebirthdaybox{
 	background-color: #59AEFF;
-	border-radius: 20px; 
+	border-radius: 20px;
 	padding-top: 11px;
-	padding-left: 20px; 
-	padding-bottom: 11px; 
-	margin-bottom: 10px; 
+	padding-left: 20px;
+	padding-bottom: 11px;
+	margin-bottom: 10px;
 	width: 90%;
 	margin-left: 5%;
-	border-width: 1px; 
-	border-color: white; 
+	border-width: 1px;
+	border-color: white;
 	border-style: solid;
 }
 
 .birthdaybox{
 	background-color: #59AEFF;
-	border-radius: 20px; 
+	border-radius: 20px;
 	padding-top: 11px;
-	padding-left: 20px; 
-	padding-bottom: 11px; 
-	margin-bottom: 10px; 
+	padding-left: 20px;
+	padding-bottom: 11px;
+	margin-bottom: 10px;
 	width: 90%;
 	margin-left: 5%;
-	border-width: 1px; 
-	border-color: white; 
+	border-width: 1px;
+	border-color: white;
 	border-style: solid;
 }
 
 
 
 .lastbox{
-	
+
 	width: 100%;
-	height: 10px; 
-	margin-bottom: 130px; 
+	height: 10px;
+	margin-bottom: 130px;
 }
 
 #footer{
 	height: 90px;
-	width: 100%; 
+	width: 100%;
 	background-color: white;
-	border-top: 1px; 
+	border-top: 1px;
 	border-top-style: solid;
 	border-top-color: #E3E3E3;
 }
 
 footer{
-	position: fixed; 
-	bottom: 0;  
-	width: 100%; 
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
 #sendbutton{
-	height: 90px; 
-	padding-top: 30px; 
-	text-align: center; 
+	height: 90px;
+	padding-top: 30px;
+	text-align: center;
 }
 
 #settingsbutton{
-	height: 90px; 
-	padding-top: 30px; 
-	text-align: center; 
+	height: 90px;
+	padding-top: 30px;
+	text-align: center;
 }
 
 #addbutton{
-	height: 90px; 
-	padding-top: 30px; 
-	text-align: center; 
+	height: 90px;
+	padding-top: 30px;
+	text-align: center;
 }
 
 #sendbutton:active{
 	background-color: #E3E3E3;
-	
+
 }
 
 #settingsbutton:active{
@@ -203,36 +204,36 @@ footer{
 
 .cakeicon{
 	width: 30px;
-	height: auto; 
-	margin-left: 8px;  
-	padding: 0px; 
+	height: auto;
+	margin-left: 8px;
+	padding: 0px;
 }
 
 .editicon{
 	width: 20px;
 	height: auto;
-	text-align: center; 
-	margin-top: 7px; 
+	text-align: center;
+	margin-top: 7px;
 }
 
 .deleteicon{
 	width: 20px;
 	height: auto;
-	text-align: center; 
+	text-align: center;
 	margin-left: 10px;
-	margin-top: 7px; 
+	margin-top: 7px;
 }
 
 .nomargin{
 	margin: 0px;
-	padding: 0px; 
+	padding: 0px;
 }
 
 p{
-	font-family: 'Nunito', sans-serif; 
-	font-size: 12px; 
-	color: white; 
-	margin: 0px; 
+	font-family: 'Nunito', sans-serif;
+	font-size: 12px;
+	color: white;
+	margin: 0px;
 }
 
 .app {
@@ -254,4 +255,3 @@ p{
                                       /* offset horizontal: half of image width and text area width */
     }
 }
-
