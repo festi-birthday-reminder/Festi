@@ -10,5 +10,35 @@ $(document).ready(function() {
     birthdaylist = [];
   }
 
+  if(birthdaylist.length == 0) {
+    // laat leeg ding zien
+    $('.legebirthdaybox').removeClass('d-none');
+  } else {
+    $('.legebirthdaybox').addClass('d-none');
+    // we gaan blokken maken
+    $.each(birthdaylist, function(bi, birthday) {
+      var html = '<div class="birthdaybox container-fluid">';
+  			html += '<div class="row">';
+  				html += '<div class="col-2 nomargin">';
+  					html += '<img alt="cakeicon" class="cakeicon" src="img/White cake.png">';
+  				html += '</div>';
+  				html += '<div class="col-6 nomargin">';
+  					html += '<div class="nomargin">';
+  						html += '<p class="font-weight-bold">'+birthday.name+'</p>';
+  						html += '<p>'+birthday.date+'</p>';
+  					html += '</div>';
+  				html += '</div>';
+  				html += '<div class="col-4 nomargin">';
+  					html += '<img alt="editicon" class="editicon" src="img/edit icon white.png">';
+  					html += '<img alt="deleteicon" class="deleteicon" src="img/delete white.png">';
+  				html += '</div>';
+  			html += '</div>';
+  		html += '</div>';
+
+      $('#birthdayList').append(html);
+    });
+  }
+
   console.log(birthdaylist);
+
 });

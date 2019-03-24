@@ -7,7 +7,6 @@ $(document).ready(function() {
 
     // ophalen lijst
     var birthdaylist = JSON.parse(storage.getItem('birthdays'));
-    var birthdatList = JSON.encode
 
     // als er geen lijst is, maak lege lijst
     if(!birthdaylist) {
@@ -17,6 +16,10 @@ $(document).ready(function() {
     //ophalen invulvelden
     var name = $('#form-add-name').val();
     var date = $('#form-add-date').val();
+
+    if(!name || !date) {
+      return;
+    }
 
     // maak een niewe verjaardag
     var birthday = {
@@ -30,5 +33,7 @@ $(document).ready(function() {
 
     // sla de lijst op
     storage.setItem('birthdays', JSON.stringify(birthdaylist));
+
+    window.location.href = 'calendar.html';
   });
 });
