@@ -20,12 +20,16 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
+html {
+  min-height: 100%;
+}
+
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-image: linear-gradient(#FF8CCC, #3FA1FF);
-	
+
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -38,23 +42,23 @@ body {
 
 a {
 	text-decoration: none;
-	
+
 }
 
 h3{
 	font-family: 'Nunito', sans-serif;
-	text-align: center; 
-	font-size: 15px; 
+	text-align: center;
+	font-size: 15px;
 	color: #44B7DF;
 	font-style: italic;
-	margin-top: 12px; 
-	
+	margin-top: 12px;
+
 }
 /* Portrait layout (default) */
 .frontpagecontainer {
 	display: block;
 	flex-direction: column;
-	margin-top: 70px; 
+	margin-top: 70px;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -64,61 +68,61 @@ h3{
 
 .taart1 {
 	background-color: white;
-	bottom: 0px; 
+	bottom: 0px;
 	height: 40px;
 	width: 40%;
 	text-alignt: center;
-	margin-left: 30%; 
+	margin-left: 30%;
 	border-radius: 20px;
 }
 
-.taart2 { 
-	bottom: 0px; 
+.taart2 {
+	bottom: 0px;
 	background-color: white;
 	height: 40px;
-	margin-top: 15px; 
+	margin-top: 15px;
 	width: 55%;
 	text-alignt: center;
-	margin-left: 22.5%; 
-	border-radius: 20px; 
-	
+	margin-left: 22.5%;
+	border-radius: 20px;
+
 }
 
 .taart3 {
-	bottom: 0px; 
+	bottom: 0px;
 	background-color: white;
 	height: 40px;
-	margin-top: 15px; 
+	margin-top: 15px;
 	width: 70%;
 	text-alignt: bottom;
-	margin-left: 15%; 
-	border-radius: 20px; 
-	
+	margin-left: 15%;
+	border-radius: 20px;
+
 }
-.logobox { 
+.logobox {
 	overflow: auto;
 	background-color: white;
 	width: 80%;
-	margin-left: 10%; 
-	border-radius: 20px;  
-	margin-bottom: 0px; 
-	margin-top: 15px; 
-	
-	
+	margin-left: 10%;
+	border-radius: 20px;
+	margin-bottom: 0px;
+	margin-top: 15px;
+
+
 }
 
 .festilogo1 {
 	margin-top: 25px;
 	display: block;
-	margin-left: auto; 
-	margin-right: auto; 
-	object-fit: contain; 
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: contain;
 }
 .taartkaars {
 	display: block;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: auto;
-	
+
 }
 
 
@@ -128,28 +132,28 @@ h3{
 	margin-bottom: 30px;
 	display: block;
 	width: 70%;
-	padding: 10px; 
+	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	background-color: #FF70C0;
 	color: white;
-	font-size: 15px; 
+	font-size: 15px;
 	font-family: 'Nunito', sans-serif;
-	
+
 }
 
-.button1:active { 
+.button1:active {
 
 background-color: #FF8CCC;
-	
+
 }
 
 footer{
-	position: absolute; 
-	bottom: 0;  
-	width: 100%; 
-	height: 10px; 
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 10px;
 }
 
 .app {
