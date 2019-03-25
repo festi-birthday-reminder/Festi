@@ -29,7 +29,6 @@ $(document).ready(function() {
   					html += '</div>';
   				html += '</div>';
   				html += '<div class="col-4 nomargin">';
-  					html += '<img alt="editicon" class="editicon" src="img/edit icon white.png">';
   					html += '<img alt="deleteicon" class="deleteicon" src="img/delete white.png">';
   				html += '</div>';
   			html += '</div>';
