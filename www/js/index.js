@@ -16,13 +16,17 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+$(document).ready(function() {
 
- $(document).ready(function() {
+   document.addEventListener("deviceready", onDeviceReady, false);
 
-   function Update(){
-    if (Input.GetKeyDown(KeyCode.Escape))
-     Application.Quit();
-  }
+function onDeviceReady(){
+    document.addEventListener("backbutton", function(e){
+
+           e.preventDefault();
+           navigator.app.exitApp();
+
+    }, false);
 })
 
 var app = {

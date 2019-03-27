@@ -1,9 +1,14 @@
 $(document).ready(function() {
 
-  function Update(){
-   if (Input.GetKeyDown(KeyCode.Escape))
-    Application.Quit();
- }
+     document.addEventListener("deviceready", onDeviceReady, false);
+
+  function onDeviceReady(){
+      document.addEventListener("backbutton", function(e){
+
+             e.preventDefault();
+             navigator.app.exitApp();
+
+      }, false);
 
   // opslag
   var storage = window.localStorage;
