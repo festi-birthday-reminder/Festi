@@ -1,15 +1,6 @@
 $(document).ready(function() {
 
-     document.addEventListener("deviceready", onDeviceReady, false);
-
-  function onDeviceReady(){
-      document.addEventListener("backbutton", function(e){
-
-             e.preventDefault();
-             navigator.app.exitApp();
-
-      }, false);
-
+  
   // opslag
   var storage = window.localStorage;
 
