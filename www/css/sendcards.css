@@ -51,6 +51,7 @@ a {
 a:active{
 	text-decoration: none;
 	color: white;
+  outline: none;
 }
 /* Portrait layout (default) */
 
@@ -125,6 +126,7 @@ h5:active{
 
   text-decoration: none;
   color: white;
+  outline: none;
 
 }
 
@@ -186,11 +188,13 @@ p{
   background-color: #3FA1FF;
   text-decoration: none;
   opacity: 0.9;
+  outline: none;
 }
 
 .downloadbutton:active{
   text-decoration: none !important;
   opacity: 1;
+  outline: none;
 }
 
 .carousel {
