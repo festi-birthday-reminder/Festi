@@ -1,4 +1,10 @@
 $(document).ready(function() {
+
+  function Update(){
+   if (Input.GetKeyDown(KeyCode.Escape))
+    Application.Quit();
+ }
+
   // opslag
   var storage = window.localStorage;
 

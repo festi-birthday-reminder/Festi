@@ -16,6 +16,15 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+ $(document).ready(function() {
+
+   function Update(){
+    if (Input.GetKeyDown(KeyCode.Escape))
+     Application.Quit();
+  }
+})
+
 var app = {
     // Application Constructor
     initialize: function() {
