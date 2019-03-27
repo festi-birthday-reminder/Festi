@@ -16,19 +16,6 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-$(document).ready(function() {
-
-   document.addEventListener("deviceready", onDeviceReady, false);
-
-function onDeviceReady(){
-    document.addEventListener("backbutton", function(e){
-
-           e.preventDefault();
-           navigator.app.exitApp();
-
-    }, false);
-})
-
 var app = {
     // Application Constructor
     initialize: function() {
