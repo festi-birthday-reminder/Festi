@@ -25,7 +25,11 @@ html {
 }
 
 body {
-
+  background-image: linear-gradient(#FF8CCC, #3FA1FF);
+  background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	background-color: white;
     height:100%;
 	min-height: 100%;
@@ -90,6 +94,7 @@ h2{
 	color:#787878 ;
 	margin-top: 25px;
 	font-family: 'Nunito', sans-serif;
+  text-decoration: none;
 }
 
 h3{
@@ -97,6 +102,7 @@ h3{
 	font-family: 'Nunito', sans-serif;
 	margin-left: 0px;
 	padding-left: 0px;
+  text-decoration: none;
 }
 
 h4{
@@ -104,6 +110,21 @@ h4{
 	font-family: 'Nunito', sans-serif;
 	margin-bottom: 15px;
 	margin-left: 5%;
+  text-decoration: none;
+
+}
+
+h5{
+
+  text-decoration: none;
+  color: white;
+
+}
+
+h5:active{
+
+  text-decoration: none;
+  color: white;
 
 }
 
@@ -163,18 +184,22 @@ p{
   border-style: solid;
   border-width: 2px;
   background-color: #3FA1FF;
+  text-decoration: none;
+  opacity: 0.9;
 }
 
 .downloadbutton:active{
-  background-color: #7ebefc;
+  text-decoration: none !important;
+  opacity: 1;
 }
 
 .carousel {
-  width: 65%;
+  width: 63%;
   height: auto;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  text-decoration: none;
 
 
 }
